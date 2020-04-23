@@ -6,6 +6,7 @@ body {
     background-color: #152535;
     color: white;
     overflow-x: hidden;
+    font: "josefin sans", "poppins";
 }
 
 .nav-bg {
@@ -14,6 +15,10 @@ body {
 
 a {
     color: #b9b9b9;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 h6 {
@@ -27,10 +32,6 @@ h6 {
 
 .card {
     border: 0;
-}
-
-.card01 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .bottom-left {
@@ -100,6 +101,31 @@ h6 {
     z-index: 100;
 }
 
+.zoom01 {
+    transition: transform 1s;
+    height: 100%;
+    width: 100%;
+}
+
+.zoom01:hover {
+    -ms-transform: scale(1.025);
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.overlay01 {
+    bottom: 0;
+    padding: 10px;
+    background: #203345;
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 1;
+    color: white;
+}
+
 .size {
     width: 21vw;
     height: 11vw;
@@ -107,4 +133,23 @@ h6 {
 
 .row-cols-7 {
     height: 11vw;
+}
+
+.avengers {
+    height: 60vh;
+}
+
+.btn-color {
+    background-color: #203345;
+    color: #b9b9b9;
+    font-weight: bold;
+}
+
+.btn-color:hover {
+    background-color: #385875;
+}
+
+.bg-4 {
+    background-color: #203345;
+    color: #ffffff;
 }
