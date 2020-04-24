@@ -1,0 +1,110 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #152535;
+    color: #b9b9b9;
+    overflow-x: hidden;
+    font: "josefin sans", "poppins";
+}
+
+.nav-bg {
+    background-color: #203345;
+}
+
+a {
+    color: #b9b9b9;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h6 {
+    font-size: larger;
+}
+
+.dark {
+    background-color: #6c8094;
+    color: white;
+}
+
+.card {
+    border: 0;
+}
+
+.bg-footer {
+    background-color: #203345;
+    color: #ffffff;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table.a {
+    font-size: larger;
+    color: #b9b9b9;
+}
+
+
+/* zoom on hover */
+
+* {
+    box-sizing: border-box;
+}
+
+.imgContain {
+    position: relative;
+    background: #203345;
+}
+
+.image {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    bottom: 0;
+    padding: 10px;
+    background: #203345;
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+}
+
+.imgContain:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.zoom {
+    transition: transform 1s;
+    height: 100%;
+    width: 100%;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.size {
+    width: 21vw;
+    height: 11vw;
+}
+
+p.a {
+    font-size: larger;
+}
