@@ -6,7 +6,8 @@ body {
     background-color: #152535;
     color: white;
     overflow-x: hidden;
-    font: "josefin sans", "poppins";
+    font-family: "josefin sans", "poppins", "sans-serif";
+    font-size: 18px;
 }
 
 .nav-bg {
@@ -156,4 +157,5 @@ h6 {
 
 p.a {
     font-size: larger;
+    font-family: "poppins";
 }
