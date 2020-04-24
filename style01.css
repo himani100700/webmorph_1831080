@@ -149,7 +149,11 @@ h6 {
     background-color: #385875;
 }
 
-.bg-4 {
+.bg-footer {
     background-color: #203345;
     color: #ffffff;
+}
+
+p.a {
+    font-size: larger;
 }
