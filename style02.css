@@ -6,7 +6,13 @@ body {
     background-color: #152535;
     color: #b9b9b9;
     overflow-x: hidden;
-    font: "josefin sans", "poppins";
+    font-family: "poppins", "josefin sans", "sans-serif";
+    font-size: medium;
+}
+
+.cstm-font {
+    font-family: "josefin sans";
+    font-weight: bold;
 }
 
 .nav-bg {
